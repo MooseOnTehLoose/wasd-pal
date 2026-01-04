@@ -185,7 +185,7 @@ void setKeys(){
       drawMod1();
     }
   }else if (keys[5][5] == LOW){
-    lookuptable = mod2values;1
+    lookuptable = mod2values;
     unsigned long currentMillis = millis(); // Get the current time
     if (currentMillis - previousMillis1 >= interval1) {
       drawMod2();
